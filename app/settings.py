@@ -119,6 +119,15 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+STATICFILES_DIR = [
+    BASE_DIR / 'static'
+    ]
+
+PATH_TO_YOUR_STATIC_FOLDER='bysellhome/static/style'
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    PATH_TO_YOUR_STATIC_FOLDER,
+    ]
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
