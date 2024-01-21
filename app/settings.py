@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 
 from pathlib import Path
 
+from django.conf.global_settings import AUTH_USER_MODEL
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -81,14 +83,23 @@ WSGI_APPLICATION = 'app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'home',
+        'USER': 'home',
+        'PASSWORD': 'home',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
-
-
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
@@ -129,11 +140,11 @@ STATICFILES_DIR = [
     BASE_DIR / 'static'
     ]
 
-PATH_TO_YOUR_STATIC_FOLDER='bysellhome/static/style'
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    PATH_TO_YOUR_STATIC_FOLDER,
-    ]
+# PATH_TO_YOUR_STATIC_FOLDER='bysellhome/static/style'
+# STATICFILES_DIRS = [
+#     BASE_DIR / "static",
+#     PATH_TO_YOUR_STATIC_FOLDER,
+#     ]
 
 MEDIA_URL = 'media/'
 
@@ -148,3 +159,4 @@ INTERNAL_IPS = [
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'users.User'
