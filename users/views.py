@@ -1,3 +1,4 @@
+"""Module providing a function for users."""
 from django.contrib.auth.decorators import login_required
 from django.contrib import auth, messages
 from django.http import HttpResponseRedirect
@@ -8,6 +9,7 @@ from users.forms import ProfileForm, UserLoginForm, UserRegistrationForm
 
 
 def login(request):
+    """Function login."""
     if request.method == 'POST':
         form = UserLoginForm(data=request.POST)
         if form.is_valid():
@@ -19,11 +21,9 @@ def login(request):
                 messages.success(request, f"{username}, Вы вошли в аккаунт")
                 if request.POST.get('next', None):
                     return HttpResponseRedirect(request.POST.get('next'))
-                
                 return HttpResponseRedirect(reverse('main:index'))
     else:
         form = UserLoginForm()
-    
     context = {
         'title': 'Home - Авторизация',
         'form': form
@@ -31,25 +31,25 @@ def login(request):
     return render(request, 'users/login.html', context)
 
 def registration(request):
+    """Function registration."""
     if request.method == 'POST':
         form = UserRegistrationForm(data=request.POST)
         if form.is_valid():
             form.save()
             user = form.instance
             auth.login(request, user)
-            messages.success(request, f"{user.username}, Вы успешно зарегистрированы и вошли в аккаунт")
+            messages.success(request, f"{user.username}, Вы зарегистрированы и вошли в аккаунт")
             return HttpResponseRedirect(reverse('main:index'))
     else:
         form = UserRegistrationForm()
-    
     context = {
         'title': 'Home - Регистрация',
         'form': form
-
     }
     return render(request, 'users/registration.html', context)
 @login_required
 def profile(request):
+    """Function updating of users."""
     if request.method == 'POST':
         form = ProfileForm(data=request.POST, instance=request.user, files=request.FILES)
         if form.is_valid():
@@ -58,15 +58,18 @@ def profile(request):
             return HttpResponseRedirect(reverse('user:profile'))
     else:
         form = ProfileForm(instance=request.user)
-    
     context = {
         'title': 'Home - Кабинет',
         'form': form
     }
     return render(request, 'users/profile.html', context)
 
+def users_cart(request):
+    return render(request, 'users/users_cart.html')
+
 @login_required
 def logout(request):
+    """Function for logout."""
     messages.success(request, f"{request.user.username}, Вы вышли из аккаунта")
     auth.logout(request)
     return redirect(reverse("main:index"))
