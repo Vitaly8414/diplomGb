@@ -3,54 +3,54 @@
         "model": "goods.products",
         "pk": 1,
         "fields": {
-            "name": "������ ������ � ��� �����",
-            "slug": "chajnyj-stolik-i-tri-stula",
-            "description": "�������� �� ��� ������� � ������������ ������ ��� ��������� �������",
-            "image": "goods_images/set_of_tea_table_and_three_chairs.jpg",
-            "price": "150.00",
-            "discount": "10.00",
-            "quantity": 40,
-            "category": 5
+            "name": "���� ��������",
+            "slug": "fara-perednyaya",
+            "description": "�� ������ ��� 3 �����",
+            "image": "goods_images/BMW_light.jpg",
+            "price": "300.00",
+            "discount": "20.00",
+            "quantity": 20,
+            "category": 11
         }
     },
     {
         "model": "goods.products",
         "pk": 2,
         "fields": {
-            "name": "������ ������ � ��� �����",
-            "slug": "chajnyj-stolik-i-dva-stula",
-            "description": "����� �� ����� � ���� ������� � ����������������� �����",
-            "image": "goods_images/set_of_tea_table_and_two_chairs.jpg",
-            "price": "93.00",
-            "discount": "0.00",
-            "quantity": 10,
-            "category": 5
+            "name": "������ ��������",
+            "slug": "bamper-perednij",
+            "description": "������ �������� �� �������� �202",
+            "image": "goods_images/Merc_bamper.jpg",
+            "price": "500.00",
+            "discount": "10.00",
+            "quantity": 8,
+            "category": 7
         }
     },
     {
         "model": "goods.products",
         "pk": 3,
         "fields": {
-            "name": "������������ �������",
-            "slug": "dvuhspalnaya-krovat",
-            "description": "������� ������������ � ������������� � ������ ����� ������������",
-            "image": "goods_images/double_bed.jpg",
-            "price": "670.00",
-            "discount": "0.00",
-            "quantity": 10,
-            "category": 6
+            "name": "������",
+            "slug": "krylya",
+            "description": "������ ��� ���� �6",
+            "image": "goods_images/AUDI_wings.jpg",
+            "price": "350.00",
+            "discount": "5.00",
+            "quantity": 12,
+            "category": 8
         }
     },
     {
         "model": "goods.products",
         "pk": 4,
         "fields": {
-            "name": "�������� ���� � ���������",
-            "slug": "kuhonnyj-stol-s-rakovinoj",
-            "description": "�������� ���� ��� ����� � ���������� ��������� � ��������.",
-            "image": "goods_images/kitchen_table.jpg",
-            "price": "365.00",
-            "discount": "0.00",
+            "name": "�������",
+            "slug": "spojler",
+            "description": "������� ��� ��� 3 �����",
+            "image": "goods_images/BMW_spoiler.jpg",
+            "price": "140.00",
+            "discount": "10.00",
             "quantity": 30,
             "category": 7
         }
@@ -59,55 +59,55 @@
         "model": "goods.products",
         "pk": 5,
         "fields": {
-            "name": "�������� ���� � ���������",
-            "slug": "kuhonnyj-stol-s-vstrojkoj",
-            "description": "�������� ���� �� ���������� ������ � ���������. ����� ����� � ������ ��������.",
-            "image": "goods_images/kitchen_table_2.jpg",
-            "price": "430.00",
-            "discount": "0.00",
-            "quantity": 20,
-            "category": 5
+            "name": "���������",
+            "slug": "dvigatel",
+            "description": "��������� ��� ������ ���� 2",
+            "image": "goods_images/Engine.jpg",
+            "price": "2000.00",
+            "discount": "5.00",
+            "quantity": 5,
+            "category": 12
         }
     },
     {
         "model": "goods.products",
         "pk": 6,
         "fields": {
-            "name": "������� ����� ��� ���������",
-            "slug": "uglovoj-divan-dlya-gostinnoj",
-            "description": "������� �����, �������������� � ������������ �������, ��� �������� � ������ ������ ����� ��!",
-            "image": "goods_images/corner_sofa.jpg",
-            "price": "610.00",
-            "discount": "20.00",
-            "quantity": 10,
-            "category": 7
+            "name": "��������� �����",
+            "slug": "dvigatel-novyj",
+            "description": "��� ������ ������� � ���������",
+            "image": "goods_images/Engine2.jpg",
+            "price": "3000.00",
+            "discount": "0.00",
+            "quantity": 6,
+            "category": 12
         }
     },
     {
         "model": "goods.products",
         "pk": 7,
         "fields": {
-            "name": "������������ ������",
-            "slug": "prikrovatnyj-stolik",
-            "description": "������������ ������ � ����� ���������� ������� (������ �� ������ � ��������).",
-            "image": "goods_images/bedside_table.jpg",
-            "price": "55.00",
-            "discount": "0.00",
-            "quantity": 20,
-            "category": 6
+            "name": "��������",
+            "slug": "bagazhnik",
+            "description": "�������� ������������� �������� ��� �������������",
+            "image": "goods_images/Forser_universal.jpg",
+            "price": "600.00",
+            "discount": "20.00",
+            "quantity": 30,
+            "category": 7
         }
     },
     {
         "model": "goods.products",
         "pk": 8,
         "fields": {
-            "name": "����� ������������",
-            "slug": "divan-obyknovennyj",
-            "description": "�����, �� �� ���� ������������, ������ ��������������� ��� ��������.",
-            "image": "goods_images/sofa.jpg",
-            "price": "190.00",
-            "discount": "5.00",
-            "quantity": 10,
+            "name": "������ ��� ��������",
+            "slug": "bamper-pod-pokrasku",
+            "description": "������ ��� �������� ��� ������",
+            "image": "goods_images/Lexus_bumper.jpg",
+            "price": "600.00",
+            "discount": "0.00",
+            "quantity": 20,
             "category": 7
         }
     },
@@ -115,41 +115,97 @@
         "model": "goods.products",
         "pk": 9,
         "fields": {
-            "name": "���� �������",
-            "slug": "stul-ofisnyj",
-            "description": "�������� ������, ��� �� ����� �� ��������, �� ��� ����, ��� ��� �������...",
-            "image": "goods_images/office_chair.jpg",
-            "price": "30.00",
-            "discount": "0.00",
-            "quantity": 30,
-            "category": 8
+            "name": "��������� ���������",
+            "slug": "glushitel-sdvoennyj",
+            "description": "��������� ��� ������ ���� 2",
+            "image": "goods_images/Pipes.jpg",
+            "price": "1000.00",
+            "discount": "1.00",
+            "quantity": 20,
+            "category": 9
         }
     },
     {
         "model": "goods.products",
         "pk": 10,
         "fields": {
-            "name": "��������",
-            "slug": "rastenie",
-            "description": "�������� ��� ��������� ������ ��������� ������� �������� � ������������� ����������.",
-            "image": "goods_images/flower.jpg",
-            "price": "10.00",
+            "name": "��������� ���������",
+            "slug": "glushiteli-odinarnye",
+            "description": "��������� ��� ����",
+            "image": "goods_images/Pipes2.jpg",
+            "price": "2000.00",
             "discount": "0.00",
-            "quantity": 10,
-            "category": 10
+            "quantity": 35,
+            "category": 9
         }
     },
     {
         "model": "goods.products",
         "pk": 11,
         "fields": {
-            "name": "������������ ������2",
-            "slug": "prikrovatnyj-stolik2",
-            "description": "������, �������� �������� �� ���, �� �������� ��� ���������� ����� � ��������.",
-            "image": "goods_images/strange_table.jpg",
-            "price": "25.00",
+            "name": "������ ��������2",
+            "slug": "bamper-perednij2",
+            "description": "������ �������� ��� ������ ���� ������ 150",
+            "image": "goods_images/Toyota_bamper.jpg",
+            "price": "300.00",
+            "discount": "10.00",
+            "quantity": 100,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "������ ��������3",
+            "slug": "bamper-perednij3",
+            "description": "������ �������� ����� ��� ������ ���� ������ 150",
+            "image": "goods_images/Toyota_bumper2.jpg",
+            "price": "450.00",
             "discount": "0.00",
-            "quantity": 115,
+            "quantity": 50,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 13,
+        "fields": {
+            "name": "������ ������",
+            "slug": "bamper-zadnij",
+            "description": "������ ������ ����� ��� ������ ���� ������ 150",
+            "image": "goods_images/Toyota_bumper3.jpg",
+            "price": "500.00",
+            "discount": "5.00",
+            "quantity": 36,
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 14,
+        "fields": {
+            "name": "��������� �������������",
+            "slug": "dvigatel-forsirovannyj",
+            "description": "��������� ��� �����",
+            "image": "goods_images/Turbine.jpg",
+            "price": "3600.00",
+            "discount": "10.00",
+            "quantity": 20,
+            "category": 12
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 15,
+        "fields": {
+            "name": "����� �� �����",
+            "slug": "diski-na-volgu",
+            "description": "����� ��� ����� R18",
+            "image": "goods_images/Whells_volga.jpg",
+            "price": "3000.00",
+            "discount": "3.00",
+            "quantity": 24,
             "category": 10
         }
     }

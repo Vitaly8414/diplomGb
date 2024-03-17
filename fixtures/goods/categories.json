@@ -1,7 +1,7 @@
 [
     {
         "model": "goods.categories",
-        "pk": 4,
+        "pk": 6,
         "fields": {
             "name": "��� ������",
             "slug": "all"
@@ -9,34 +9,18 @@
     },
     {
         "model": "goods.categories",
-        "pk": 5,
-        "fields": {
-            "name": "�����",
-            "slug": "kuhnya"
-        }
-    },
-    {
-        "model": "goods.categories",
-        "pk": 6,
-        "fields": {
-            "name": "�������",
-            "slug": "spalnya"
-        }
-    },
-    {
-        "model": "goods.categories",
         "pk": 7,
         "fields": {
-            "name": "���������",
-            "slug": "gostinnaya"
+            "name": "�������",
+            "slug": "bampera"
         }
     },
     {
         "model": "goods.categories",
         "pk": 8,
         "fields": {
-            "name": "����",
-            "slug": "ofis"
+            "name": "������",
+            "slug": "krylya"
         }
     },
     {
@@ -44,7 +28,7 @@
         "pk": 9,
         "fields": {
             "name": "���������",
-            "slug": "furnitura"
+            "slug": "glushiteli"
         }
     },
     {
@@ -52,7 +36,23 @@
         "pk": 10,
         "fields": {
             "name": "�����",
-            "slug": "dekor"
+            "slug": "diski"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 11,
+        "fields": {
+            "name": "����",
+            "slug": "fary"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 12,
+        "fields": {
+            "name": "���������",
+            "slug": "dvigatel"
         }
     }
 ]
